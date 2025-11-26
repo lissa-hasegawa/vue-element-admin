@@ -1,5 +1,5 @@
 /**
- * dataURL
+ *
  * @param  {[String]} data
  * @param  {[String]} mime
  * @return {[blob]}
