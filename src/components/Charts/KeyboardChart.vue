@@ -5,9 +5,10 @@
 <script>
 import echarts from 'echarts'
 import resize from './mixins/resize'
-import { generateChartData, getChartOptions } from '@/utils/chartHelpers'
+import { generateChartData, getChartOptions } from '@/utils/chartHelpers' // Caminho corrigido
 
 export default {
+  name: 'KeyboardChart',
   mixins: [resize],
   props: {
     className: {
